@@ -5,9 +5,12 @@ using UnityEngine;
 public class GlobalVariables : MonoBehaviour
 {
     public static GlobalVariables Instance;
+    #region projectilesVariables
+
     [SerializeField] public float projectileSpeed = 1;
     [SerializeField] public float projectileLifeTime = 1;
-
+    [SerializeField] public float specialCD = 1;
+    #endregion
     #region PlayerLanes
     [SerializeField] public Vector3 leftLane;
     [SerializeField] public Vector3 rightLane;
