@@ -1229,13 +1229,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7227e64b0222a4b977da65af7096cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  minSpeed: 1
+  maxSpeed: 10
+  speed: 15
   maxHealth: 120
   health: 2
   element: 3
   weakness: 1
   damageCanvas: {fileID: 7019564134260758752}
   damageText: {fileID: 1753551310450906552}
+  deathAudio: {fileID: 8300000, guid: 566d2ea6240b489479a6e9fd608c2621, type: 3}
 --- !u!136 &5359061436822547637
 CapsuleCollider:
   m_ObjectHideFlags: 0
