@@ -1230,7 +1230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpeed: 1
-  maxSpeed: 10
+  maxSpeed: 2
   speed: 15
   maxHealth: 120
   health: 2
